@@ -1,0 +1,6 @@
+node_modules
+setenv.sh
+.idea
+.env
+package-lock.json
+.DS_Store

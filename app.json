@@ -1,0 +1,88 @@
+{
+  "name": "LegoCity Bot for Messenger",
+  "description": "Heroku-powered Bot for Messenger",
+  "env": {
+    "FB_PAGE_TOKEN": {
+      "description": "Facebook Messenger Access Token",
+      "value":"",
+      "required":false
+    },
+    "FB_VERIFY_TOKEN": {
+      "description": "Facebook Verify Token",
+      "value":""
+    },
+    "EINSTEIN_LANGUAGE_MODEL": {
+      "description": "Einstein.ai language model",
+      "value":""
+    },
+    "EINSTEIN_VISION_MODEL": {
+      "description": "Einstein.ai vision model for starship recognition",
+      "value":""
+    },
+    "LANGUAGE": {
+      "description": "Bot Language",
+      "value":"fr"
+    },
+    "HUE_ENABLED": {
+      "description": "Hue bridge enabled?",
+      "value":"false"
+    },
+    "HUE_XWING_ID": {
+      "description": "Hue Light ID from API",
+      "value":"",
+      "required":false
+    },
+    "HUE_UWING_ID": {
+      "description": "Hue Light ID from API",
+      "value":"",
+      "required":false
+    },
+    "HUE_TIEFIGHTER_ID": {
+      "description": "Hue Light ID from API",
+      "value":"",
+      "required":false
+    },
+    "HUE_BRIDGE_TOKEN": {
+      "description": "Bridge Token from api",
+      "value":"",
+      "required":false
+    },
+    "HUE_BRIDGE_ID": {
+      "description": "Bridge ID",
+      "value":"",
+      "required":false
+    },
+    "COMMUNITY_TIE_FIGHTER": {
+      "description": "Topic url for TieFighter",
+      "value":"0TO0Y000000bp5rWAA/tie-fighter"
+    },
+    "COMMUNITY_UWING": {
+      "description": "Topic url for Uwing",
+      "value":"0TO0Y000000bp5qWAA/uwing"
+    },
+    "COMMUNITY_XWING": {
+      "description": "Topic url for Xwing",
+      "value":"0TO0Y000000bp5pWAA/xwing"
+    },
+    "INGENICO_API_ID": {
+      "description": "Ingenico API ID",
+      "value":""
+    },
+    "INGENICO_API_KEY": {
+      "description": "Ingenico API KEY",
+      "value":""
+    },
+    "INGENICO_SUBDOMAIN": {
+      "description": "Ingenico API Subdomain",
+      "value":"https://payment."
+    },
+    "INGENICO_TOKEN": {
+      "description": "Ingenico Token",
+      "value":""
+    }
+  },
+  "addons": [
+    "einstein-vision",
+    "heroku-redis"
+  ]
+}

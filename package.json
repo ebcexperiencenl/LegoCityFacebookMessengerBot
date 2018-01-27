@@ -1,0 +1,28 @@
+{
+  "name": "messengerforce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "author": "Salesforce Team",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-sdk-nodejs": ">=2.2.0 <3.0.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.13.4",
+    "form-data": "^2.1.4",
+    "jsonwebtoken": "^7.1.9",
+    "moment": "^2.13.0",
+    "node-geocoder": "^3.16.0",
+    "numeral": "^1.5.3",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1",
+    "ioredis": "^3.2.1"
+  }
+}

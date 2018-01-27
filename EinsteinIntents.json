@@ -1,0 +1,23 @@
+{
+  "intents": {
+    "Greetings": [
+      "Bonjour",
+      "bonjour",
+      "Hi",
+      "hi",
+      "Hello",
+      "hello",
+      "Sup",
+      "bjr",
+      "salut"
+    ],
+    "InfoShip" : [
+      "j'aimerais des infos sur un vaisseau",
+      "j'ai besoin d'en savoir plus",
+      "information sur un vaisseau",
+      "informations",
+      "information sur tiefighter",
+      "Je veux en savoir plus sur le X-Wing"
+    ]
+  }
+}
